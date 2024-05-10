@@ -1,3 +1,4 @@
+import { About } from "@/components/about";
 import { Landing } from "@/components/landing";
 import { Navbar } from "@/components/navbar";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="w-full h-[100vh] overflow-y-scroll">
       <Navbar />
       <Landing />
+      <About />
     </div>
   );
 }
