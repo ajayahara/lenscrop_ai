@@ -1,18 +1,18 @@
 import Image from "next/image";
 export const Navbar = () => {
   return (
-    <header className="bg-white p-5 px-12 shadow-lg">
-      <nav>
-        <div className="flex justify-between items-center">
+    <header className="bg-white h-[16vh] flex items-center shadow px-24">
+      <nav className="w-full">
+        <div className="w-full flex justify-between items-center">
           <a href="/home">
             <Image
-              height={60}
-              width={60}
+              height={80}
+              width={80}
               src="/nav_logo.webp"
               alt="lenscrop logo"
             ></Image>
           </a>
-          <ul className="flex gap-4 items-center text-sm">
+          <ul className="flex gap-4 items-center text-md">
             <li>
               <a href="/makemyweb" className="hover:text-[#c2efe7]">
                 MakeMyWeb
