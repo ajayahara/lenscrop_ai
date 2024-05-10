@@ -1,6 +1,7 @@
 import { About } from "@/components/about";
 import { Footer } from "@/components/footer";
 import { Landing } from "@/components/landing";
+import { Map } from "@/components/map";
 import { Navbar } from "@/components/navbar";
 
 export default function Home() {
@@ -9,7 +10,8 @@ export default function Home() {
       <Navbar />
       <Landing />
       <About />
-      <Footer/>
+      <Map />
+      <Footer />
     </div>
   );
 }
