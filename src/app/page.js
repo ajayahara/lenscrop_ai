@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { Landing } from "@/components/landing";
 import { Map } from "@/components/map";
 import { Navbar } from "@/components/navbar";
+import { Question } from "@/components/question";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Landing />
       <About />
+      <Question />
       <Map />
       <Footer />
     </div>
